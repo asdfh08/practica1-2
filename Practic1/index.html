@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Карточка товара - iPhone 17 Pro Max</title>
+    <!-- Подключаем стили, скомпилированные из SASS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Главный контейнер карточки товара -->
     <div class="product-card">
-        <img class="product-card__image" src="images/iphone.webp" alt="iphon 17 pro max">
+        <!-- Блок с изображением товара -->
+        <img class="product-card__image" src="images/iphone.webp" alt="iphone 17 pro max">
+        
+        <!-- Контентная часть карточки -->
         <div class="product-card__content">
+            <!-- Заголовок товара -->
             <h2 class="product-card__title">iPhone 17 Pro Max</h2>
             
+            <!-- Список характеристик товара -->
             <ul class="product-card__specs">
                 <li>Цвет: оранжевый титан</li>
                 <li>Память: 1 ТБ</li>
@@ -20,7 +27,10 @@
                 <li>Экран: 6,9" OLED</li>
             </ul>
             
+            <!-- Блок с ценой товара -->
             <div class="product-card__price">149 999 ₽</div>
+            
+            <!-- Кнопка добавления в корзину -->
             <button class="product-card__button">В корзину</button>
         </div>
     </div>
